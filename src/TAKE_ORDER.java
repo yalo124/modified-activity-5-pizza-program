@@ -26,7 +26,6 @@ public class TAKE_ORDER {
         }
     }
 
-    // Keeps asking until the user enters a valid positive whole number (try...catch).
     static int askPositiveInt(String message, String initial){
         while(true){
             String input = JOptionPane.showInputDialog(null, message, initial);
